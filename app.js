@@ -80,7 +80,7 @@ function check(idx) {
     body.classList.add("darkRed"); // Flash red background
     setTimeout(() => body.classList.remove("darkRed"), 150);
 
-    reset();
+        setTimeout(reset(), 100);
   }
 }
 
