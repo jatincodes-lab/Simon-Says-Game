@@ -23,16 +23,16 @@
 
 /* Individual button colors */
 .blue {
-    background-color:#007bff;
+    background-color: rgb(132, 175, 255);
 }
 .red {
-    background-color: #dc3545;
+    background-color: rgb(233, 116, 116);
 }
 .green {
-    background-color: #28a745;
+    background-color:  rgb(72, 238, 72);
 }
 .yellow {
-    background-color: #ffc107;
+    background-color: rgb(245, 245, 105);
 }
 
 /* Flash effect for buttons */
