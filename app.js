@@ -21,14 +21,6 @@ document.addEventListener("keypress", () => {
   }
 });
 
-// Start the game on click
-document.addEventListener("click", () => {
-  if (!gameStart) {
-    gameStart = true;
-    levelUp();
-  }
-});
-
 // Flash effect for game-generated button
 function gameFlash(btn) {
   btn.classList.add("flash");
@@ -80,7 +72,7 @@ function check(idx) {
     body.classList.add("darkRed"); // Flash red background
     setTimeout(() => body.classList.remove("darkRed"), 150);
 
-        setTimeout(reset(), 100);
+        reset();
   }
 }
 
